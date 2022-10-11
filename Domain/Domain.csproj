@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Core</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Entities\Auth" />
+      <Folder Include="Entities\Doctor" />
+      <Folder Include="Entities\Medicine" />
+      <Folder Include="Entities\Patient" />
+      <Folder Include="Entities\Visit" />
+    </ItemGroup>
+
+</Project>
